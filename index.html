@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="ru-ru">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/material.orange-amber.min.css" />
+  <link rel="stylesheet" href="css/icon.css">
+  <script defer src="js/material.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</head>
+<body>
+  <div id="headerMinor"></div>
+  <div id="headerMajor">
+    <div id="logo">ООО "ГЕОТОП"
+    </div>
+  </div>
+  <div id="headerImage">
+    <div>ГЕОДЕЗИЯ И ГЕОЛОГИЯ В ЗАПОРОЖЬЕ И ОБЛАСТИ
+    </div>
+    <div id="calculateForm">Рассчитать стоимость
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="name">
+          <label class="mdl-textfield__label" for="name">Имя</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="phone">
+          <label class="mdl-textfield__label" for="phone">Телефон</label>
+        </div>
+
+        <br>
+
+        <span>Вид работ</span>
+
+        <button id="demo-menu-top-right"
+          class="mdl-button mdl-js-button mdl-button--icon">
+          <i class="material-icons">more_vert</i>
+        </button>
+
+        <br><br>
+
+        <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect"
+          data-mdl-for="demo-menu-top-right">
+          <li class="mdl-menu__item">Вид работ1</li>
+          <li class="mdl-menu__item">Вид работ2</li>
+          <li class="mdl-menu__item">Вид работ3</li>
+        </ul>
+
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Рассчитать
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br>
+
+  <div class="title">Наши сертификаты</div>
+  <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 box">
+          <img src="img/s1.jpg">
+        </div>
+        <div class="col-md-5 box">
+          <img src="img/s2.jpg">
+        </div>
+        <div class="col-md-3 box">
+          <img src="img/s3.jpg">
+        </div>
+        </div>
+    </div>
+
+  <br><br><br><br><br><br><br>
+
+  <div class="title">Наши услуги</div>
+  <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 box">
+          <img src="img/service.jpg">
+          <p class="text1">Услуга 1</p>
+        </div>
+        <div class="col-md-5 box">
+          <img src="img/service.jpg">
+          <p class="text1">Услуга 2</p>
+        </div>
+        <div class="col-md-3 box">
+          <img src="img/service.jpg">
+          <p class="text1">Услуга 3</p>
+        </div>
+        </div>
+    </div>
+
+  <br><br><br><br><br><br><br>
+
+  <div class="title">Как нас найти?</div>
+  <br>
+  <div id="Map" style="width:100%;height:400px"></div>
+  <br>
+
+  <div id="footerMajor"></div>
+
+  <div id="footerMinor"></div>
+
+</body>
+</html>

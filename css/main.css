@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: grey;
+  font-size: 21pt;
+}
+
+#headerMinor {
+  background-color: #eb9213;
+  width: auto;
+  height: 40px;
+}
+
+#headerMajor {
+  background-color: #b27114;
+  color: white;
+  font-size: 14pt;
+  text-align: right;
+  width: auto;
+  height: 80px;
+}
+
+#headerImage {
+  background-image: url("../img/main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px;
+  color: white;
+  font-size: 21pt;
+  width: auto;
+  height: 400px;
+}
+
+#logo {
+  display: inline-block;
+  margin-top: 27px;
+  margin-right: 15px;
+}
+
+#calculateForm {
+  padding: 20px;
+  height: 200px;
+  width: 370px;
+  background-color: white;
+  color: grey;
+  text-align: center;
+  float: right;
+  margin-top: 150px;
+}
+
+.box {
+  margin: 10px;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 18pt;
+  color: grey;
+}
+
+#footerMajor {
+  width: 100%;
+  height: 300px;
+  background-color: #b27114;
+}
+
+#footerMinor {
+  width: 100%;
+  height: 40px;
+  background-color: #eb9213;
+}
